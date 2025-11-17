@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ main  {
+    display: flex;
+    gap: 20px;
+ }
+
+
+ main li {
+    list-style: none;
+    margin-left: 20px;
+ }
+/* nav {
+    flex-grow: 1;
+}
+*/
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+footer {
+    margin-top: 20px;
+    
+}
+
+body ul {
+    list-style: none;
+
+ }
+
+.summary {
+    margin-top: 40px;
+    font-size: 20px;
+}
