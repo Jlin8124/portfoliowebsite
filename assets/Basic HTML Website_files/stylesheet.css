@@ -47,18 +47,3 @@ body ul {
     margin-top: 40px;
     font-size: 20px;
 }
-
-#calculator-keys {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* ensuring that the button sizes are standardized regardless of whats inside */
-    /* gap: 10px; */ /*adding gaps between buttons simple enough */
-    margin-bottom: 10px;
-    width: 250px;
-   
-}
-#calc-screen {
-    margin-bottom:10px;
-    width: 100%;
-    grid-column: 1 / -1;
-}
-
