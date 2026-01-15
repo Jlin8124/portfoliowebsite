@@ -9,7 +9,6 @@ header {
     gap: 20px;
  }
 
-
  main li {
     list-style: none;
     margin-left: 20px;
@@ -54,19 +53,21 @@ body ul {
     /* gap: 10px; */ /*adding gaps between buttons simple enough */
     margin-bottom: 10px;
     width: 250px;
-    border: 5px solid red;
+    border: 5px solid black;
+    border-radius: 2%;
+
    
 }
 #calc-screen {
-    margin-bottom:10px;
+    
     box-sizing: border-box;
     width: 100%;
     grid-column: 1 / -1;
 }
 
 #btn-enter {
-    grid-column: span 3;
-    width: 100%;
+    grid-column: span 1;
+    
 }
 
 #demo {
