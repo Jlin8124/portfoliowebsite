@@ -74,3 +74,9 @@ body ul {
     height: 20px;
     border: 20px solid red;
 }
+
+#logoContainer {
+
+    height: 300px;
+    width: 300px;
+}
